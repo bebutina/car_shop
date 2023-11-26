@@ -8,6 +8,7 @@
 body {
     font-family: Inter;
     font-weight: 400px;
+    position: relative;
 }
 a {
     text-decoration: none;
@@ -149,13 +150,6 @@ main {
 
 }
 
-/* #tablet__info {
-
-    width: 185px;
-    height: 152.709px;
-    flex-shrink: 0;
-} */
-
 
 
 .main__sale {
@@ -202,24 +196,28 @@ main {
 
 
 .arrow_img {
-    width: 20%;
-    border-radius: 40%;
-    border: #6967C7 solid;
-    
-    
-}
-
-.main__arrow {
-    position: fixed;
-    z-index: 5;
-    right: 0;
-    bottom: 0;
-    
+    width: 100%;
 
 }
+
+
+    
+    
+
+
 .arrow__div {
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 50px;
+    bottom: 85px;
+    border-radius: 100px;
+    border: #6967C7 solid;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    
     
 }
 
